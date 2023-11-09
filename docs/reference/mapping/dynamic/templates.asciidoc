@@ -267,7 +267,7 @@ PUT my-index/_doc/1
 }
 --------------------------------------------------
 
-<1> The `one_ip` field is unmatched, so uses the default mapping of `text`.
+<1> The `one_ip` field is unmatched, so uses the default mapping of `text`. 
 <2> The `ip_two` field is unmatched, so uses the default mapping of `text`.
 <3> The `three_ip` field is mapped as type `ip`.
 <4> The `ip_four` field is mapped as type `ip`.
